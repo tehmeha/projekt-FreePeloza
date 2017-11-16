@@ -11,17 +11,19 @@ int main()
     int izbor;
     cin>>izbor;
     int brIgre = 0;
-    if( izbror==1)
+    if( izbor==1)
     {
         cout << "Upisite bodove za ekipu mi"<<endl;
         cin >> mi[brIgre];
         vi[brIgre] = 162 - mi[brIgre];
+        brIgre ++;
     }
-    else if( izbror==2)
+    else if( izbor==2)
     {
         cout << "Upisite bodove za ekipu vi"<<endl;
         cin >> vi[brIgre];
         mi[brIgre] = 162 - vi[brIgre];
+        brIgre ++;
     }
     return 0;
 }
