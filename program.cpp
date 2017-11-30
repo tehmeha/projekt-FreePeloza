@@ -40,10 +40,11 @@ int main()
         }
         cout << "--------------" << endl;
         cout<<suma_mi<<"\t"<<suma_vi<<endl;
-        if(suma_mi>=1001 || suma_vi>=0)
+        if(suma_mi>=1001 || suma_vi>=1001)
         {
             break;
         }
+
     }
 
     return 0;
