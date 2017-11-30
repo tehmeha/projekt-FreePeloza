@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
 
+int izracunaj_bodove_druge_ekipe
+
+
 int main()
 {
     int mi[20],vi[20];
